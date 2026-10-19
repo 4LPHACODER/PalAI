@@ -1,8 +1,7 @@
-import React from "react";
-import { CrosshairIcon, LayersIcon, RouteIcon, ScanIcon, BoxIcon } from "lucide-react";
+import { CrosshairIcon, LayersIcon, RouteIcon, ScanIcon, LucideIcon } from "lucide-react";
 import { surveyViewOrder, surveyViews } from "../../data/surveyViews";
 import { SurveyView } from "../../types/drone";
-const icons: Record<SurveyView, BoxIcon> = {
+const icons: Record<SurveyView, LucideIcon> = {
   aerial: ScanIcon,
   coverage: RouteIcon,
   multispectral: LayersIcon,

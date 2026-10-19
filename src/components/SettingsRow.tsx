@@ -1,8 +1,8 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { ChevronRightIcon, BoxIcon } from "lucide-react";
+import { ChevronRightIcon, LucideIcon } from "lucide-react";
 interface SettingsRowProps {
-  icon: BoxIcon;
+  icon: LucideIcon;
   label: string;
   value?: string;
   description?: string;

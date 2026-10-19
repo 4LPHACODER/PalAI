@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
+    "gateway": "node gateway/stream-gateway.js",
+    "probe": "node gateway/probe-drone.js",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "preview": "npx vite preview"
   },
